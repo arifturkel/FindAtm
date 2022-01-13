@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindATM.API", "FindATM\FindATM.API.csproj", "{1FF35FE0-C915-4544-B12D-D29542F22416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindATM.UnitTests", "FindATM.UnitTests\FindATM.UnitTests.csproj", "{2648D351-C6C0-41BB-B295-DF71C3B06697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A91C4BBD-7E64-4BA4-A996-09A55FBE8290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FF35FE0-C915-4544-B12D-D29542F22416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF35FE0-C915-4544-B12D-D29542F22416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF35FE0-C915-4544-B12D-D29542F22416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF35FE0-C915-4544-B12D-D29542F22416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2648D351-C6C0-41BB-B295-DF71C3B06697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2648D351-C6C0-41BB-B295-DF71C3B06697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2648D351-C6C0-41BB-B295-DF71C3B06697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2648D351-C6C0-41BB-B295-DF71C3B06697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91C4BBD-7E64-4BA4-A996-09A55FBE8290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91C4BBD-7E64-4BA4-A996-09A55FBE8290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91C4BBD-7E64-4BA4-A996-09A55FBE8290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91C4BBD-7E64-4BA4-A996-09A55FBE8290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76B9E79C-76F3-4A6B-8A5F-776370463218}
+	EndGlobalSection
+EndGlobal
